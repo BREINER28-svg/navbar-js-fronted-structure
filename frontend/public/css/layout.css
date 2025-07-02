@@ -12,8 +12,6 @@ html {
 }
 
 body {
-   /* background-color: var(--gray-900);*/
-   font-family: var(--main-font);
     color: var(--black);
 }
 
