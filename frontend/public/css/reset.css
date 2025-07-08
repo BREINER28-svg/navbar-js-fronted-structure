@@ -1,7 +1,7 @@
 /* Reset Avanzado con Normalize.css */
 
 /* Corrige los estilos de fuentes en todos los navegadores */
-body {
+/* body {
     font-family: var(--main-font); 
     line-height: 1.5;
     font-size: var(--fs-xs);
@@ -10,7 +10,7 @@ body {
 
 a {
     text-decoration: none;
-} 
+}  */
 
 /* Hace que las imágenes y medios sean flexibles */
 /* img, picture, video, canvas, svg {
