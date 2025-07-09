@@ -8,6 +8,14 @@
 
     <script src="/frontend/public/js/components/navbar.js" defer></script>
     <script src="/frontend/public/js/components/hero.js" defer></script>
+    <!-- <script src="/frontend/public/js/components/card.js" defer></script>  -->
+     <!-- script para cargar todas las cards -->
+     <script type="module">
+        import{loadCards} from "/frontend/public/js/components/card.js";
+        loadCards(".cards-container"); //clase para cargar todas las cards
+     </script>
+
+
 </head>
 <body>
     
@@ -19,6 +27,8 @@
      <section class="hero">
         <div class="hero-content"></div>
      </section>
+
+      <div class="cards-container"></div> 
 
     <h1>Estoy en Inicio</h1>
     
